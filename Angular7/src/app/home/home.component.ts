@@ -8,7 +8,7 @@ import { Router } from '@angular/router';
   styles: []
 })
 export class HomeComponent implements OnInit {
-  userDetails;
+  userDetails[];
 
   constructor(private router: Router, private service: UserService) { }
 
